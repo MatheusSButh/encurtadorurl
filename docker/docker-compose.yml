@@ -4,5 +4,5 @@ services:
     ports:
       - "27017:27017"
     environment:
-      - MONGODB_USERNAME=admin
-      - MONGODB_PASSWORD=1234567
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=123
